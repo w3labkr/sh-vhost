@@ -1,0 +1,249 @@
+# Amp Vhost   
+
+# 0.0.42
+1. removed: Removed unnecessary directory.
+2. updated: The README.md file has been updated.
+
+# 0.0.41
+1. fixed: A typo in README.md has been fixed.
+2. added: Added parameter passing when running the sub script.
+3. changed: The directory structure has been changed.
+4. added: A host configuration file has been added.
+5. added: Added --my option to config.sh.
+6. fixed: Fixed 'sed : no input file' error in Apache 2.
+7. updated: The README.md file has been updated.
+8. updated: Comments have been updated.
+9. updated: A typo has been fixed.
+
+# 0.0.4
+1. moved: The virtual host configuration has been moved to the sh-vhost repository.
+2. updated: Module-specific wizard commands have been integrated.
+3. changed: etc directory changed to host and os.
+4. updated: The README.md file has been updated.
+5. updated: Script execution method changed from selection to parameter.
+6. removed: Minor version (0.0.3x) tags have been removed.
+
+# 0.0.38
+1. added: A virtual host alias option was added.
+2. fixed: Added WordPress initial settings.
+
+# 0.0.37
+1. fixed: Fixed an issue where users were denied access.
+2. fixed: Fixed sed syntax error when installing WordPress.
+3. removed: Removed unnecessary parameters.
+4. fixed: Added escape string when installing virtual hosts.
+5. fixed: Fixed an issue where a blank line was added to the msg return value.
+6. added: Added db variable when installing WordPress.
+7. added: Fixed an issue where the laravel command could not be found.
+8. added: JavaScript and CSS scaffolding when installing laravel.
+9. added: npm installation was added.
+10. removed: Removed test command.
+
+# 0.0.36
+1. added: OS version detection was added.
+2. updated: Absolute path updated.
+3. added: The wp-cli command has been added.
+4. added: upgrade.sh was added.
+5. changed: Environment constant changed from APACHE2_HTTPS to PROTO.
+6. fixed: The wrong file path was fixed.
+6. fixed: The wrong directory path was fixed.
+7. added: The functions.sh file has been added.
+8. added: A package reinstallation message was added.
+9. added: Relative package paths have been added.
+10. added: A delete database command was added.
+
+# 0.0.35
+1. fixed: Job for apache2.service failed have been fixed.
+2. fixed: Fixed apache2.service not activated when running config.sh
+3. fixed: Fixed SQL syntax error when installing WordPress.
+4. added: A reinstall command line was added.
+5. fixed: Fixed the syntax error.
+6. updated: whitespace regex has been updated.
+7. changed: Changed the comment.
+
+# 0.0.34
+1. fixed: The wrong file path was fixed.
+2. fixed: Escapes have been added when searching and replacing in templates.
+3. updated: The virtual host database script has been updated.
+3. updated: The wordpress script has been updated.
+4. removed: Unnecessary command have been removed.
+5. added: Added root directory settings when installing virtualhost.
+6. updated: Message arguments have been updated.
+7. updated: The README.md file has been updated.
+
+# 0.0.33
+1. fixed: Syntax errors have been fixed.
+2. fixed: The wrong file path was fixed.
+3. added: Added verbose option to cp command.
+4. moved: Moved mpm-itk installation from config.sh to install.sh.
+5. updated: Updated to safety blank.
+6. updated: The vsftpd configuration has been updated.
+7. updated: The apache2 configuration has been updated.
+8. added: The virtualhost command was added.
+9. fixed: The wrong file path was fixed.
+
+# 0.0.32
+1. fixed: The wrong file path was fixed.
+2. fixed: Syntax errors have been fixed.
+3. updated: The syntax has been updated.
+4. added: Added global variables.
+5. fixed: The default settings of php.ini have been changed.
+6. updated: The README.md file has been updated.
+7. changed: Variable name changed.
+
+# 0.0.31
+1. fixed: Fixed incorrect file path.
+2. fixed: Fixed an error that occurred when the output line number was empty.
+3. added: Module version information has been added to the env file.
+4. fixed: Fixed incorrect Apache 2 configuration settings.
+5. added: Files for module updates were added.
+6. added: Fixed an issue where the static public IP was empty.
+7. fixed: Minor bugs were fixed.
+8. removed: Removed public IPs from icanhazip.com.
+9. fixed: Fixed an issue where keywords could not be loaded from env files.
+
+# 0.0.3
+1. changed: The directory structure has been changed.
+2. updated: Grouped by function for easy code modification.
+
+# 0.0.24
+1. fixed: Fixed syntax error near unexpected token `fi'.
+2. fixed: Fixed syntax error break.
+3. added: The env file was added.
+4. modified: The comment has been modified.
+5. updated: Updated to restore fail2ban's configuration settings.
+6. added: Added setting to get variables from env.
+7. updated: Reduced the depth level of the if statement.
+8. added: Added a new blank line.
+9. added: Added wordpress install script.
+
+# 0.0.23
+1. fixed: Fixed the heredoc not to overlap.
+2. updated: Updated code to check if ip is blocked before unblocking.
+3. updated: The fail2ban configuration has been updated.
+4. fixed: Fixed an error where when creating a new vhosting file, there were no more files or directories and could no longer proceed.
+5. added: Added optional syntax to overwrite virtual hosting directory if it already exists.
+6. fixed: Fixed sed can't read i: No such file or directory.
+7. added: Added the logs directory to the virtual host directory.
+8. changed: The default email for serveradmin has changed.
+9. updated: Updated to disable default virtual hosting.
+10. updated: The CHANGELOG has been updated.
+11. updated: Updated sender and recipient email addresses to be editable.
+12. added: Added steps to remove virtual hosts.
+
+# 0.0.22
+1. added: The host.sh file was added.
+2. added: The amp-host.sh file was added.
+3. changed: The file has been renamed from amp-usr.sh to amp-user.sh.
+4. changed: The file has been renamed from amp-boot.sh to amp-restart.sh.
+5. changed: The file has been renamed from amp-bak.sh to amp-restore.sh.
+6. changed: The file has been renamed from amp-host.sh to amp-vhost.sh.
+7. changed: A fail2ban configuration was added.
+8. removed: Unnecessary command have been removed.
+9. added: Added ability to check if git is installed.
+10. added: A fail2ban installation was added.
+11. added: The amp-fail2ban.sh file was added.
+12. added: The fail2ban.sh file was added.
+13. added: A fail2ban configuration was added.
+14. updated: Startup server default increased from 5 to 10.
+15. updated: The file has been updated.
+
+# 0.0.21
+1. added: Added syntax to deny access to the root account.
+2. added: Added a choice to exit.
+3. fixed: GnuTLS error -15 in gnutls_record_recv: An unexpected TLS packet was received.
+4. added: The restart.sh file was added.
+5. updated: Securing Transmissions with SSL/TLS has been updated.
+6. added: Added output text.
+7. modified: Default permissions for shared files have been modified from 755 to 775.
+8. removed: Unnecessary command have been removed.
+9. added: The amp-boot.sh file was added.
+10. modified: The comment has been modified.
+
+# 0.0.2
+1. Minor version (0.0.1x) tags have been removed.
+
+# 0.0.18
+1. changed: The user home directory permission has been changed.
+2. updated: Removed unnecessary questions when allowing root account access.
+3. added: Shell access was disabled when creating a new ftp user.
+4. modified: The question has been modified.
+5. updated: Securing Transmissions with SSL/TLS has been updated.
+
+# 0.0.17
+1. added: Restoring ufw's configuration settings.
+2. added: Securing Transmissions with SSL/TLS
+3. updated: The README.md file has been updated.
+4. modified: The comment has been modified.
+5. added: Port 20 has been added to the firewall.
+6. added: The ftpusers file has been added to vsftpd's restore configuration settings.
+7. updated: The rsa file path has been updated.
+8. added: Settings were added after creating an ftp user.
+9. updated: The amp-usr.sh has been updated.
+10. fixed: ECONNREFUSED - Connection refused by server.
+11. disabled: Disable_ipv6 is disabled in vsftpd option.
+12. added: An empty value was added when declaring the first variable.
+13. updated: Securing Transmissions with SSL/TLS
+14. updated: The vsftp settings have been updated.
+15. added: The comment has been added.
+
+# 0.0.16
+1. fixed: sed: -e expression #1, char 41: unterminated `s' command
+2. fixed: The vsftpd restart command has been fixed.
+3. added: The config.sh file was added.
+4. modified: The comment has been modified.
+5. added: Added securing transmissions with SSL/TLS settings to vsftpd.
+6. updated: Added a script to track running platforms.
+7. removed: Unnecessary variables have been removed.
+8. changed: The default variable name has been changed.
+9. added: The user.sh file was added.
+10. added: The amp-usr.sh file was added.
+11. added: Added a script to create ftp users.
+12. updated: The README.md file has been updated.
+13. fixed: Fixed infinite looping of usernames.
+14. changed: The wrongly declared function name has been changed.
+15. updated: Updated regex to find correct username.
+16. fixed: Fixed the message to wrap.
+
+# 0.0.15
+1. fixed: syntax error near unexpected token `?i:log'
+2. fixed: can't read -: No such file or directory
+3. fixed: can't read E: No such file or directory
+4. fixed: The order of incorrectly declared variables has changed.
+5. fixed: The double quotes used in regular expressions have been changed to single quotes.
+6. removed: Unnecessary code has been removed.
+7. updated: The README.md file has been updated.
+8. updated: The mpm_prefork.conf file has been updated.
+9. fixed: Fixed an issue where the mpm_prefork setting was not applied properly.
+10. added: The amp-bak.sh file was added.
+11. added: The restore.sh file was added.
+12. added: Code for restore settings was added.
+13. updated: The order in which messages appear during installation has changed.
+14. changed: Changed text indentation.
+
+# 0.0.14
+1. updated: Added syntax to prevent duplicates when host names are added.
+2. updated: The CHANGELOG file has been updated.
+3. added: The amp-cnf.sh file was added.
+4. removed: Unnecessary code has been removed.
+5. modified: The comment has been modified.
+
+# 0.0.13
+1. updated: The syntax has been updated to see if the script is running as root.
+2. added: Exception syntax for file existence was added.
+3. modified: The contents of the CHANGELOG have been modified.
+4. updated: The select statement has been updated.
+
+# 0.0.12
+1. fixed: The wrong file path was fixed.
+2. updated: The select statement has been updated.
+3. changed: The file name has been changed.
+4. changed: The directory structure has been changed.
+5. added: The install.sh file was added.
+6. added: The update.sh file was added.
+7. added: The CHANGELOG file was added.
+8. modified: The comment has been modified.
+9. fixed: sed -e expression #1, char 3: unknown command: `/'
+
+# 0.0.1
+initial release
